@@ -1,0 +1,10 @@
+[project]
+name = "physics-solver-mcp"
+version = "0.1.0"
+description = "Physics problem solver using CrewAI and MCP tools"
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.134.0",
+    "crewai-tools[mcp]>=0.48.0",
+    "mcp>=1.10.1",
+]
